@@ -21,7 +21,7 @@ if ASSISTANT_TOKEN is None:
     LOGS.error("Please set your ASSISTANT_TOKEN!")
     quit(1)
 
-OWNER_ID = int(env("OWNER_ID"))
+OWNER_ID = int(env("OWNER_ID", 6713994904))
 if OWNER_ID is None:
     LOGS.error("Please set your OWNER_ID!")
     quit(1)
