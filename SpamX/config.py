@@ -11,7 +11,7 @@ if API_ID is None:
     LOGS.error("Please set your API_ID!")
     quit(1)
 
-API_HASH = str(env("API_HASH", 22561f023ab0dccfe3b609845014ff0b))
+API_HASH = str(env("API_HASH"))
 if API_HASH is None:
     LOGS.error("Please set your API_HASH!")
     quit(1)
