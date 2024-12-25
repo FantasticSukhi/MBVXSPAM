@@ -16,7 +16,7 @@ if API_HASH is None:
     LOGS.error("Please set your API_HASH!")
     quit(1)
 
-ASSISTANT_TOKEN = str(env("ASSISTANT_TOKEN"))
+ASSISTANT_TOKEN = str(env("ASSISTANT_TOKEN", "6873452469:AAG4mhD3lDpOBickoDdRznjTLM0FnF3w9jg"))
 if ASSISTANT_TOKEN is None:
     LOGS.error("Please set your ASSISTANT_TOKEN!")
     quit(1)
