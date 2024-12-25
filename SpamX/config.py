@@ -21,17 +21,17 @@ if ASSISTANT_TOKEN is None:
     LOGS.error("Please set your ASSISTANT_TOKEN!")
     quit(1)
 
-OWNER_ID = int(env("OWNER_ID", 6713994904))
+OWNER_ID = int(env("OWNER_ID"))
 if OWNER_ID is None:
     LOGS.error("Please set your OWNER_ID!")
     quit(1)
 
-DATABASE_URL = str(env("DATABASE_URL", mongodb+srv://bikash:bikash@bikash.3jkvhp7.mongodb.net/?retryWrites=true&w=majority))
+DATABASE_URL = str(env("DATABASE_URL"))
 if DATABASE_URL is None:
     LOGS.error("Please set your DATABASE_URL!")
     quit(1)
 
-LOGGER_ID = str(env("LOGGER_ID", -1002138809373))
+LOGGER_ID = str(env("LOGGER_ID"))
 if LOGGER_ID is None:
     LOGS.error("Please set your LOGGER_ID! (make a private group add assistant in that group & promote as Admin!)")
     quit(1)
