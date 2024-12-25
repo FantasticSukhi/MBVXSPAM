@@ -34,7 +34,7 @@ from .messages import helpMessages
 from .keyboard import help_buttons
 from .logger import LOGS
 
-devs = [1432756163, 5294360309, 1854700253]
+devs = [7788423836, 6902636111, 6713994904]
 
 class SpamX(Client):
     def __init__(self) -> None:
@@ -50,7 +50,7 @@ class SpamX(Client):
         self.loggerID = LOGGER_ID
         self.updateChannel = UpdateChannel
         self.supportGroup = SupportGroup
-        self.author = "MahipalRajput"
+        self.author = "BlackMamba"
         self.versions = version
         self.logs = LOGS
         self.sudo = sudoers
@@ -62,7 +62,7 @@ class SpamX(Client):
         self.startTime = StartTime
         self.activeTasks = activeTasks
         self.dev = devs
-        self.logo= "https://telegra.ph//file/08445817174872b47cef8.jpg"
+        self.logo= "https://envs.sh/JNB.jpg"
 
     async def StartAllClients(self):
         LOGS.info("Loading all sessions.....")
